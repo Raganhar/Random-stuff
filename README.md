@@ -6,4 +6,8 @@ docker run -d -p 6379:6379 redis
 
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=testing -e MYSQL_ALLOW_EMPTY_PASSWORD=true mysql:8
 
+Limit WSL  memory usage
+https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f
+
+
 terraform fmt -recursive
