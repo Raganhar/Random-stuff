@@ -14,6 +14,7 @@ terraform fmt -recursive
 
 
 docker pull grafana/k6
+
 Pipes test into docker and runs it:
 
 cat script.js | docker run --rm -i grafana/k6 run -
