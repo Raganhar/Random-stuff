@@ -11,3 +11,7 @@ https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f
 
 
 terraform fmt -recursive
+
+
+docker pull grafana/k6
+https://k6.io/docs/get-started/installation/
